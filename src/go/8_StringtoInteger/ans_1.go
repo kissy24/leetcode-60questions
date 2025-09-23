@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func myAtoi(s string) int {
+func myAtoi_1(s string) int {
 	// 空文字対処
 	s_ := strings.TrimSpace(s)
 	if s_ == "" {
